@@ -1,0 +1,70 @@
+ros-noetic-tf2-2d (0.6.3-2buster) buster; urgency=high
+
+  * Fixing package license
+  * Contributors: Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Mon, 12 Jul 2021 23:00:00 -0000
+
+ros-noetic-tf2-2d (0.6.2-2buster) buster; urgency=high
+
+  * Fix test build issue in noetic
+  * Contributors: Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Sun, 11 Jul 2021 23:00:00 -0000
+
+ros-noetic-tf2-2d (0.6.1-2buster) buster; urgency=high
+
+  * Contributors: locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Sat, 10 Jul 2021 23:00:00 -0000
+
+ros-noetic-tf2-2d (0.6.0-2buster) buster; urgency=high
+
+  * Contributors: locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Thu, 01 Oct 2020 23:00:00 -0000
+
+ros-noetic-tf2-2d (0.5.0-2buster) buster; urgency=high
+
+  * License cleanup (#3 <https://github.com/locusrobotics/tf2_2d/issues/3>)
+  * Contributors: Stephen Williams, locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Thu, 11 Jul 2019 23:00:00 -0000
+
+ros-noetic-tf2-2d (0.4.0-2buster) buster; urgency=high
+
+  * Contributors: locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Mon, 18 Mar 2019 00:00:00 -0000
+
+ros-noetic-tf2-2d (0.3.0-2buster) buster; urgency=high
+
+  * [RST-1548] transform covariance (#2 <https://github.com/locusrobotics/tf2_2d/issues/2>)
+    * Added conversions to Eigen types
+    * Added stream operators
+    * Added some additional toMsg conversions using a non-tf2-standard signature
+    * Added functions to transform SE2 covariance matrices
+  * Tailor: Creating Jenkinsfile
+  * Expanded readme
+  * Renamed the Transform rotation value to 'yaw'
+  * Moved into separate repo
+  * Contributors: Stephen Williams, locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Wed, 16 Jan 2019 00:00:00 -0000
+
+ros-noetic-tf2-2d (0.2.0-2buster) buster; urgency=high
+
+  * Adding tf_2d constructor overload from a standard tf transform
+  * Contributors: Stephen Williams, Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Sun, 15 Apr 2018 23:00:00 -0000
+
+ros-noetic-tf2-2d (0.1.0-2buster) buster; urgency=high
+
+  * Small trig cache optimization in the 'unrotate()' function
+  * Added 2D geometry classes (vector, rotation, transform) and conversion functions in the style of the tf2 3D geometry classes
+  * Contributors: Stephen Williams
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Wed, 14 Feb 2018 00:00:00 -0000
+
+
