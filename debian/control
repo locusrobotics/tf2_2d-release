@@ -1,0 +1,12 @@
+Source: ros-noetic-tf2-2d
+Section: misc
+Priority: optional
+Maintainer: Stephen Williams <swilliams@locusrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-tf2, ros-noetic-tf2-geometry-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-tf2-2d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-noetic-roscpp, ros-noetic-tf2, ros-noetic-tf2-geometry-msgs
+Description: A set of 2D geometry classes modeled after the 3D geometry classes in tf2.
