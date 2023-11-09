@@ -1,0 +1,18 @@
+repo_name: locusrobotics/tf2_2d-release
+report_id: 412e15a63c5a026dff4c7ffbeb5b5f69
+repo_type: Public
+timestamp: '2023-11-09T16:25:12+00:00'
+requested_by: ayrton04
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
